@@ -1,0 +1,11 @@
+# 账号凭证
+token.txt
+
+# 抓下来的资源与清单
+downloads/
+_test/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
