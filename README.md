@@ -190,7 +190,66 @@ v.src = wallpaper.src
 
 ---
 
-## 六、注意事项
+## 六、纯色 / 渐变背景
+
+壁纸库的「纯色」标签页里那些渐变色块，数据硬编码在扩展里，不在接口中。
+用 `extract-colors.mjs` 从源码提取：
+
+```bash
+node extract-colors.mjs                    # 自动定位扩展目录
+node extract-colors.mjs --ext <扩展目录>
+```
+
+产物 `solid-colors.json`（101 KB）：
+
+```json
+{
+  "count": 139,
+  "customPalette": ["#ffffff", "#3b78dc", "..."],      // 「自定义颜色」12 色色板
+  "groups": ["#FC96D3", "#8B56E9", "..."],             // 顶部 5 个筛选色标
+  "backgrounds": [
+    {
+      "index": "002",
+      "name": "Night Fade",
+      "favorite": false,
+      "deg": 0,
+      "group": ["#FC96D3", "#8B56E9"],
+      "gradient": [{ "color": "#a18cd1", "pos": 0 }, { "color": "#fbc2eb", "pos": 100 }],
+      "colors": ["#a18cd1", "#fbc2eb"],
+      "stops": 2,
+      "css": "linear-gradient(0deg,#a18cd1 0%, #fbc2eb 100%)",
+      "wallpaper": { "type": 3, "src": "linear-gradient(...)", "thumb": "linear-gradient(...)", "name": "", "time": 0 }
+    }
+  ]
+}
+```
+
+- **139 条**渐变，来自 `chunks/index-BwPVRbSv.js` 的 `Re` 数组（WebGradients 合集），
+  原始编号 `002` – `180`（中间有缺口）
+- `css` 字段就是扩展实际写进 `localStorage['baseConfig'].wallpaper.src` 的内容
+  （`wallpaper.type = 3` 表示纯色/渐变），可直接丢给 CSS `background`
+- `wallpaper` 子对象是**可直接塞回 iTab 配置**的完整结构
+
+### CSS 拼装规则
+
+扩展里（`index-BwPVRbSv.js:214-220`）：
+
+```js
+const stops = gradient.reduce(
+  (acc, o) => (acc ? `${acc}, ${o.color} ${o.pos}%` : `${o.color} ${o.pos}%`),
+  ''
+)
+return `linear-gradient(${deg}deg,${stops})`
+```
+
+注意 `deg` 后面**没有空格**，每条 `color pos%` 之间是 `, `（逗号 + 空格）。
+脚本输出的 `css` 与扩展逐字节一致。
+
+停靠点数量分布：2 / 3 / 4 / 6 / 7 / 8 个。
+
+---
+
+## 七、注意事项
 
 - 抓取频率已内置退避与并发限制，别把 `-c` 调太高。
 - 这些素材版权归原作者所有，**仅供个人学习使用，不要再分发或商用**。
