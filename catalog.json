@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-15T06:07:33.908Z",
+  "repo": {
+    "owner": "liuchuancong",
+    "name": "background",
+    "branch": "master"
+  },
+  "totals": {
+    "sources": 6,
+    "items": 5738,
+    "images": 5485,
+    "videos": 114,
+    "gradients": 139
+  },
+  "sources": [
+    {
+      "id": "official",
+      "name": "官方壁纸",
+      "nameEn": "Official",
+      "type": "image",
+      "categorized": true,
+      "count": 766,
+      "categories": [
+        {
+          "id": "nature",
+          "name": "自然",
+          "nameEn": "Nature",
+          "count": 240,
+          "catalog": "catalog/official/nature.json"
+        },
+        {
+          "id": "art",
+          "name": "艺术",
+          "nameEn": "Art",
+          "count": 155,
+          "catalog": "catalog/official/art.json"
+        },
+        {
+          "id": "architecture",
+          "name": "建筑",
+          "nameEn": "Architecture",
+          "count": 28,
+          "catalog": "catalog/official/architecture.json"
+        },
+        {
+          "id": "life",
+          "name": "生命",
+          "nameEn": "Life",
+          "count": 31,
+          "catalog": "catalog/official/life.json"
+        },
+        {
+          "id": "geometry",
+          "name": "纹理",
+          "nameEn": "Texture",
+          "count": 72,
+          "catalog": "catalog/official/geometry.json"
+        },
+        {
+          "id": "other",
+          "name": "其他",
+          "nameEn": "Other",
+          "count": 240,
+          "catalog": "catalog/official/other.json"
+        }
+      ]
+    },
+    {
+      "id": "wallhaven",
+      "name": "Wallhaven",
+      "nameEn": "Wallhaven",
+      "type": "image",
+      "categorized": true,
+      "count": 4532,
+      "categories": [
+        {
+          "id": "popular",
+          "name": "热门",
+          "nameEn": "Popular",
+          "count": 233,
+          "catalog": "catalog/wallhaven/popular.json"
+        },
+        {
+          "id": "minimalism",
+          "name": "极简主义",
+          "nameEn": "Minimalism",
+          "count": 240,
+          "catalog": "catalog/wallhaven/minimalism.json"
+        },
+        {
+          "id": "patterns",
+          "name": "图案",
+          "nameEn": "Patterns",
+          "count": 240,
+          "catalog": "catalog/wallhaven/patterns.json"
+        },
+        {
+          "id": "landscape",
+          "name": "风景",
+          "nameEn": "Landscape",
+          "count": 240,
+          "catalog": "catalog/wallhaven/landscape.json"
+        },
+        {
+          "id": "nature",
+          "name": "自然",
+          "nameEn": "Nature",
+          "count": 240,
+          "catalog": "catalog/wallhaven/nature.json"
+        },
+        {
+          "id": "cosplay",
+          "name": "Cosplay",
+          "nameEn": "Cosplay",
+          "count": 240,
+          "catalog": "catalog/wallhaven/cosplay.json"
+        },
+        {
+          "id": "spiderman",
+          "name": "蜘蛛侠",
+          "nameEn": "Spider-Man",
+          "count": 240,
+          "catalog": "catalog/wallhaven/spiderman.json"
+        },
+        {
+          "id": "ghibli",
+          "name": "吉卜力",
+          "nameEn": "Ghibli",
+          "count": 240,
+          "catalog": "catalog/wallhaven/ghibli.json"
+        },
+        {
+          "id": "naruto",
+          "name": "火影忍者",
+          "nameEn": "Naruto",
+          "count": 219,
+          "catalog": "catalog/wallhaven/naruto.json"
+        },
+        {
+          "id": "sci-fi",
+          "name": "科幻",
+          "nameEn": "Sci-Fi",
+          "count": 240,
+          "catalog": "catalog/wallhaven/sci-fi.json"
+        },
+        {
+          "id": "anime",
+          "name": "日漫",
+          "nameEn": "Anime",
+          "count": 240,
+          "catalog": "catalog/wallhaven/anime.json"
+        },
+        {
+          "id": "anime-girls",
+          "name": "动漫女孩",
+          "nameEn": "Anime Girls",
+          "count": 240,
+          "catalog": "catalog/wallhaven/anime-girls.json"
+        },
+        {
+          "id": "cyberpunk",
+          "name": "赛博朋克",
+          "nameEn": "Cyberpunk",
+          "count": 240,
+          "catalog": "catalog/wallhaven/cyberpunk.json"
+        },
+        {
+          "id": "pixel-art",
+          "name": "像素艺术",
+          "nameEn": "Pixel Art",
+          "count": 240,
+          "catalog": "catalog/wallhaven/pixel-art.json"
+        },
+        {
+          "id": "artwork",
+          "name": "Artwork",
+          "nameEn": "Artwork",
+          "count": 240,
+          "catalog": "catalog/wallhaven/artwork.json"
+        },
+        {
+          "id": "cityscape",
+          "name": "Cityscape",
+          "nameEn": "Cityscape",
+          "count": 240,
+          "catalog": "catalog/wallhaven/cityscape.json"
+        },
+        {
+          "id": "digital-art",
+          "name": "Digital Art",
+          "nameEn": "Digital Art",
+          "count": 240,
+          "catalog": "catalog/wallhaven/digital-art.json"
+        },
+        {
+          "id": "fantasy-art",
+          "name": "Fantasy Art",
+          "nameEn": "Fantasy Art",
+          "count": 240,
+          "catalog": "catalog/wallhaven/fantasy-art.json"
+        },
+        {
+          "id": "final-fantasy",
+          "name": "Final Fantasy",
+          "nameEn": "Final Fantasy",
+          "count": 240,
+          "catalog": "catalog/wallhaven/final-fantasy.json"
+        }
+      ]
+    },
+    {
+      "id": "bing",
+      "name": "必应壁纸",
+      "nameEn": "Bing",
+      "type": "image",
+      "categorized": false,
+      "count": 161,
+      "categories": [
+        {
+          "id": "all",
+          "name": "必应壁纸",
+          "nameEn": "Bing",
+          "count": 161,
+          "catalog": "catalog/bing/all.json",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "deepin",
+      "name": "deepin",
+      "nameEn": "deepin",
+      "type": "image",
+      "categorized": false,
+      "count": 26,
+      "categories": [
+        {
+          "id": "all",
+          "name": "deepin",
+          "nameEn": "deepin",
+          "count": 26,
+          "catalog": "catalog/deepin/all.json",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "name": "动态壁纸",
+      "nameEn": "Live Wallpapers",
+      "type": "video",
+      "categorized": false,
+      "count": 114,
+      "categories": [
+        {
+          "id": "all",
+          "name": "动态壁纸",
+          "nameEn": "Live Wallpapers",
+          "count": 114,
+          "catalog": "catalog/video.json",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "solid-color",
+      "name": "纯色渐变",
+      "nameEn": "Colors",
+      "type": "gradient",
+      "categorized": false,
+      "count": 139,
+      "categories": [
+        {
+          "id": "all",
+          "name": "纯色渐变",
+          "nameEn": "Colors",
+          "count": 139,
+          "catalog": "catalog/solid-colors.json",
+          "hidden": true
+        }
+      ]
+    }
+  ]
+}

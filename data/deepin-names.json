@@ -1,0 +1,32 @@
+{
+  "$comment": "deepin / UOS 内置壁纸的英文名与分类。这 26 张在接口里没有名字，是逐张看图人工命名的。",
+  "source": "https://files.itab.link/wallpaper/deepin/{0..25}.jpg",
+  "items": {
+    "0":  { "name": "Purple Salt Flats Sunset",   "category": "landscape" },
+    "1":  { "name": "Antelope Canyon Waves",      "category": "landscape" },
+    "2":  { "name": "Autumn Forest Canopy",       "category": "plants" },
+    "3":  { "name": "Sunset Mountain Ridge",      "category": "landscape" },
+    "4":  { "name": "Deepin Logo Gradient",       "category": "abstract" },
+    "5":  { "name": "Deepin Logo Ribbons",        "category": "abstract" },
+    "6":  { "name": "Neon Vortex Glow",           "category": "abstract" },
+    "7":  { "name": "Aurora Borealis Night",      "category": "sky" },
+    "8":  { "name": "Sandstone Canyon Passage",   "category": "landscape" },
+    "9":  { "name": "Starry Desert Dunes",        "category": "landscape" },
+    "10": { "name": "Desert Dunes at Dawn",       "category": "landscape" },
+    "11": { "name": "White Facade Blue Sky",      "category": "architecture" },
+    "12": { "name": "Blue Betta Fish",            "category": "animals" },
+    "13": { "name": "Vestrahorn Beach Reflection", "category": "landscape" },
+    "14": { "name": "Snowy Ridges at Dusk",       "category": "landscape" },
+    "15": { "name": "Emerald Coast Aerial",       "category": "ocean" },
+    "16": { "name": "Peak Above the Clouds",      "category": "landscape" },
+    "17": { "name": "Dune Ripples at Sunset",     "category": "landscape" },
+    "18": { "name": "Crescent Dune Moonlight",    "category": "landscape" },
+    "19": { "name": "Misty Lake at Dawn",         "category": "landscape" },
+    "20": { "name": "Foggy Pine Forest",          "category": "plants" },
+    "21": { "name": "Frozen Lake Sunrise",        "category": "landscape" },
+    "22": { "name": "Snow Peak at Sunset",        "category": "landscape" },
+    "23": { "name": "Jellyfish in Blue Water",    "category": "animals" },
+    "24": { "name": "Eagle Over the Falls",       "category": "animals" },
+    "25": { "name": "Mountain Lake Reflection",   "category": "landscape" }
+  }
+}
